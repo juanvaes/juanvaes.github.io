@@ -69,4 +69,10 @@ footer{
     color: #E6BE8A;
 }
 
+.nav-link:hover{
+    color: rgb(167, 20, 29);
+    border-bottom: 1px solid rgb(167, 20, 29);
+}
+
+
 
