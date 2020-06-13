@@ -32,7 +32,7 @@ footer{
 }
 
 .presentation {
-    height: 500px;
+    height: 60vh;
     width: 100%;
     /*background: url("../img/horux-people.jpg") no-repeat center center fixed; */
     -webkit-background-size: cover;
