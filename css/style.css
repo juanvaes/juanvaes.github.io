@@ -4,16 +4,22 @@ body, html{
   font-family: 'MuseoModerno', cursive;
   background-image: url('../img/french-stucco.png');
   background-repeat: repeat;
-  background-color: rgb(0, 0, 0)
+  background-color: rgb(0, 0, 0);
+  color: #E6BE8A;
 }
-
-.navbar {
-   height: 140px; 
+/*
+div {
+   border: 1px solid red;
 }
+*/
 
 footer{
     background-color: grey;
     height: 300px;
+}
+
+.navbar {
+   height: 140px; 
 }
 
 .row{
@@ -32,7 +38,7 @@ footer{
 }
 
 .presentation {
-    height: 60vh;
+    height: 90vh;
     width: 100%;
     /*background: url("../img/horux-people.jpg") no-repeat center center fixed; */
     -webkit-background-size: cover;
@@ -41,28 +47,34 @@ footer{
     background-size: cover;
 }
 
-.main-button{
-    width: 35%;
-    height: 100%;
-    padding: 0.5rem 1.5rem;
-    margin: 0 auto;
+.jumbotron {
+    background-color: transparent;
 }
 
-.main-button button {
+.main-button {
+    width: 100%;
+    height: 15%;
+    font-size: 20px;
+    max-width: 60%;
+    padding: 0.5rem 1.5rem;
+    margin: 0 auto;
     background: rgba(167, 20, 29, 0.5);
     color: #E6BE8A;
     transition: 0.5s ease-in;
     border-color: #E6BE8A;
+    align-self: flex-start;
 }
 
-.main-button button:hover {
+.main-button:hover {
     background: rgba(230, 190, 138, 0.8);
     color: rgb(167, 20, 29);
     border-color: rgb(167, 20, 29);
 }
 
-.main-logo img{
-    width: 25%;
+div img.main-logo{
+    width: 100%;
+    max-width: 300px;
+    max-height: 340px;
     margin: 0 auto;
     display: flex;
 }
