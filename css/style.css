@@ -115,10 +115,15 @@ li.nav-item a.nav-link:hover{
 }
 
 .img-horux-people{
-    height: 330px;
-    width: 330px;
+    height: 290px;
+    width: 290px;
     min-height: 200px;
     min-width: 200px;
+}
+
+.img-gallery-size {
+    height: 320px;
+    width: 320px;
 }
 
 .horizontal-padding{
@@ -140,5 +145,9 @@ li.nav-item a.nav-link:hover{
 }
 
 .bgcolor-title-gold {
-    background-color: rgb(230, 190, 138, 0.4);
+    background-color: rgba(230, 190, 138, 0.8);
+    border-style: dotted;
+    border-radius: 20px;
+    text-align: center;
 }
+
