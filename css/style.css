@@ -121,7 +121,7 @@ li.nav-item a.nav-link:hover{
     min-width: 200px;
 }
 
-.img-gallery-size {
+.img-gallery-size{
     height: 320px;
     width: 320px;
 }
@@ -151,3 +151,43 @@ li.nav-item a.nav-link:hover{
     text-align: center;
 }
 
+.card-group{
+    margin-bottom: 5px;
+}
+
+.card{
+    /*background-color: rgba(255, 255, 255, 0.2);*/
+    background-color: rgba(230, 190, 138, 1);
+    color: rgb(56, 133, 147);
+    margin-right: 5px;
+}
+
+.rounded-border{
+    border-top-right-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+.card-body ul{
+    font-size: 0.9rem;
+    list-style: inside;
+    padding-left: 0;
+}
+
+.card-footer {
+    padding: 0 0;
+}
+
+.card-principal {
+    background-color: rgba(230, 190, 138, 1);
+    color: rgb(167, 20, 29);
+}
+
+.badge.badge-danger{
+    background-color: rgb(167, 20, 29);
+}
+
+.btn-outline-danger{
+    color: rgb(167, 20, 29);
+}
