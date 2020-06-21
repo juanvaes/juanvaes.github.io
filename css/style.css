@@ -4,7 +4,7 @@ body, html{
   font-family: 'MuseoModerno', cursive;
   background-image: url('../img/french-stucco.png');
   background-repeat: repeat;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 1);
   color: #E6BE8A;
 }
 /*
@@ -14,10 +14,15 @@ div {
 */
 
 footer{
+   width: 100%;
+   min-height: 380px;
    background-image: linear-gradient(to bottom, transparent, black);
-   min-height: 300px;
-   padding: 1.5rem 1.5rem;
 }
+
+section {
+    padding: 1.5rem 1rem;
+}
+
 
 .navbar {
    height: 140px; 
@@ -82,20 +87,58 @@ div img.main-logo{
     margin-right: 1rem;
     font-size: 1.25rem;
 }
+
+.navbar-nav{
+    width: 100%
+}
+
 .navbar a.navbar-brand{
     color: #E6BE8A;
 }
 
 .navbar-toggler{
-    background-color: whitesmoke;
+    background-color: #E6BE8A;
 }
 
 li.nav-item a.nav-link{
-    color: #E6BE8A;
+    color: rgb(230, 190, 138);
     transition: color 0.5s ease;
 }
 
 li.nav-item a.nav-link:hover{
     color: rgb(167, 20, 29);
     border-bottom: 1px solid rgb(167, 20, 29);
+}
+
+.nav-item.spacer {
+    margin: 0 auto;
+}
+
+.img-horux-people{
+    height: 330px;
+    width: 330px;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.horizontal-padding{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.vertical-padding{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.color-horux-red {
+    color: rgb(167, 20, 29);
+}
+
+.color-horux-gold {
+    color: #E6BE8A;
+}
+
+.bgcolor-title-gold {
+    background-color: rgb(230, 190, 138, 0.4);
 }
