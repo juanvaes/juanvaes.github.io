@@ -17,10 +17,15 @@ footer{
    width: 100%;
    min-height: 380px;
    background-image: linear-gradient(to bottom, transparent, black);
+   padding-left: 2rem;
 }
 
 section {
     padding: 1.5rem 1rem;
+}
+
+#plans {
+    margin-bottom: 5rem;
 }
 
 
@@ -45,6 +50,10 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.centerize-text {
+    text-align: center;
 }
 
 .jumbotron {
